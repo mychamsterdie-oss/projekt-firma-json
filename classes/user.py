@@ -1,13 +1,13 @@
 class User:
     def __init__(self, username, password, role="employee", permissions=None,
                  position="Pracownik", salary=0, user_id=None):
-        self.id = user_id or f"user-{username}"
+        self.id = user_id or f"user-{username.lower()}"
         self.username = username
         self.password = password
         self.role = role
         self.permissions = permissions or []
         self.position = position
-        self.salary = salary
+        self.salary = float(salary)
 
     def has_permission(self, permission):
         return "all" in self.permissions or permission in self.permissions

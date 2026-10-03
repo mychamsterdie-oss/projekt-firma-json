@@ -3,7 +3,7 @@ class Order:
                  customer_name="Klient", order_id=None):
         self.id = order_id or f"order-{product_name.lower().replace(' ', '-')}-{quantity}"
         self.product_name = product_name
-        self.quantity = quantity
+        self.quantity = int(quantity)
         self.sold_by = sold_by
         self.total_price = float(total_price)
         self.customer_name = customer_name
@@ -30,4 +30,4 @@ class Order:
         )
 
     def __str__(self):
-        return f"Zamówienie: {self.product_name} x{self.quantity} | Sprzedane przez: {self.sold_by}"
+        return f"Zamówienie: {self.product_name} x{self.quantity} | Sprzedawca: {self.sold_by}"

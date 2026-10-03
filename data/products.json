@@ -1,23 +1,5 @@
 [
-  {
-    "id": "prod-1",
-    "name": "Laptop",
-    "price": 3200.0,
-    "stock": 8,
-    "category": "Elektronika"
-  },
-  {
-    "id": "prod-2",
-    "name": "Smartfon",
-    "price": 1800.0,
-    "stock": 15,
-    "category": "Elektronika"
-  },
-  {
-    "id": "prod-3",
-    "name": "Klawiatura",
-    "price": 250.0,
-    "stock": 30,
-    "category": "Akcesoria"
-  }
+  {"id": "prod-1", "name": "Laptop", "price": 3200.0, "stock": 8, "category": "Elektronika"},
+  {"id": "prod-2", "name": "Smartfon", "price": 1800.0, "stock": 15, "category": "Elektronika"},
+  {"id": "prod-3", "name": "Klawiatura", "price": 250.0, "stock": 30, "category": "Akcesoria"}
 ]
