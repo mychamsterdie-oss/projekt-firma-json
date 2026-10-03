@@ -1,0 +1,29 @@
+[
+  {
+    "id": "admin-1",
+    "username": "admin",
+    "password": "admin123",
+    "role": "admin",
+    "permissions": ["all"],
+    "position": "Administrator",
+    "salary": 0
+  },
+  {
+    "id": "emp-1",
+    "username": "manager",
+    "password": "manager123",
+    "role": "employee",
+    "permissions": ["view_products", "manage_products", "view_finances"],
+    "position": "Manager",
+    "salary": 5000
+  },
+  {
+    "id": "emp-2",
+    "username": "seller",
+    "password": "seller123",
+    "role": "employee",
+    "permissions": ["view_products", "sell"],
+    "position": "Sprzedawca",
+    "salary": 3500
+  }
+]
